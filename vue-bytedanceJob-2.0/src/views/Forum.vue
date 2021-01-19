@@ -18,6 +18,9 @@
                       <div class="context">
                           {{item.context}}
                       </div>
+                      <div class="contextList">
+                          <a href="#">查看全文</a>
+                      </div>
                   </li>
               </ul>
           </div>
@@ -97,14 +100,14 @@ export default {
 }
 .forum-col2{
     width:900px;
-    background: rgb(238, 234, 234);
+    background: #fff;
     .forumlist{
         padding:10px 10px;
-        background: rgb(238, 234, 234);
+        background:  #fff;
     }
     .context{
-        background: rgb(238, 234, 234);
-        margin-bottom:20px;
+        background:  #fff;
+        // margin-bottom:20px;
         // white-space: nowrap;
         // text-overflow: ellipsis;
         // overflow: hidden;
@@ -114,11 +117,16 @@ export default {
         -webkit-box-orient: vertical;    
         -webkit-line-clamp: 3;    
         overflow: hidden;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         padding-top:0.5rem;
     }
-    .contextTitle{
+    .contextTitle{  
         font-size: 1.5rem;
     }
+    
+}
+.contextList{
+    float: right;
+    color: rgb(20, 163, 230);
 }
 </style>
