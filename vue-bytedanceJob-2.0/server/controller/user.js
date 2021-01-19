@@ -5,7 +5,6 @@ let uuid = require('node-uuid');
 const jwt = require('jsonwebtoken');
 //生成唯一的id
 let uuid1 = uuid.v1();
-
 function writeJson(params,callback) {
     let message = {}
     //查找数据是否已有相同的邮箱
