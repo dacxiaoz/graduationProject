@@ -11,9 +11,10 @@
           playsinline
           autoplay
           poster="//sf3-ttcdn-tos.pstatp.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
-          src="//sf1-ttcdn-tos.pstatp.com/obj/ttfe/ATSX/mainland/gongquhunjian_1080.min.mp4"
+          src="../assets/bgcVideo.mp4"
           tabindex="-1"
         ></video>
+         <!-- src="//sf1-ttcdn-tos.pstatp.com/obj/ttfe/ATSX/mainland/gongquhunjian_1080.min.mp4" -->
       </div>
       <h1 class="banner-title">
         和优秀的人 做有挑战的事
@@ -152,7 +153,7 @@ export default {
   .video-wrapper {
     font-size: 0;
     position: absolute;
-    top: 0;
+    top: -20%;
     right: 0;
     bottom: 0;
     left: 0;
@@ -161,7 +162,7 @@ export default {
     .video {
       object-fit: cover;
       width: 100%;
-      height: 100%;
+      height: 120%;
     }
   }
   &-title {
@@ -198,7 +199,7 @@ export default {
   }
   .search {
     width: 500px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 40px;
   }
   .bottom-tips {

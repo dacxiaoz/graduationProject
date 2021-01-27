@@ -179,7 +179,7 @@ export default {
   color: #fff;
   width: 100%;
   min-width: @main-width;
-  background-image: url("//sf1-ttcdn-tos.pstatp.com/obj/ttfe/ATSX/mainland/joblistbanner2x.jpg");
+  background-image: url("//sf3-ttcdn-tos.pstatp.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
