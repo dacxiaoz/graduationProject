@@ -14,7 +14,6 @@
           src="../assets/bgcVideo.mp4"
           tabindex="-1"
         ></video>
-         <!-- src="//sf1-ttcdn-tos.pstatp.com/obj/ttfe/ATSX/mainland/gongquhunjian_1080.min.mp4" -->
       </div>
       <h1 class="banner-title">
         在职得的地方找到职得的人
