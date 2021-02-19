@@ -17,7 +17,7 @@
          <!-- src="//sf1-ttcdn-tos.pstatp.com/obj/ttfe/ATSX/mainland/gongquhunjian_1080.min.mp4" -->
       </div>
       <h1 class="banner-title">
-        和优秀的人 做有挑战的事
+        在职得的地方找到职得的人
         <div class="subTitle">JOIN BYTEDANCE</div>
       </h1>
       <div class="search">
@@ -198,7 +198,7 @@ export default {
     }
   }
   .search {
-    width: 500px;
+    width: 600px;
     margin-top: 50px;
     margin-bottom: 40px;
   }

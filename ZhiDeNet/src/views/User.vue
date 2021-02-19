@@ -235,29 +235,7 @@ export default {
           } else {
             this.$message.warning("没有该账号或账号密码错误");
           }
-          console.log("store.state", store.state);
       });
-      // //传输入的数据给后台
-      // try {
-      //   await fetchLoginByEmail(this.emailForm);
-      // } catch (error) {
-      //   return error;
-      // }
-      // //判断是否登陆
-      // try {
-      //   await store.requestLoginStatus();
-      // } catch (error) {
-      //   return;
-      // }
-      // this.loading = true;
-      // try {
-      //   await store.requestUserInfo();
-      // } catch (error) {
-      //   this.loading = false;
-      //   return error;
-      // }
-      // this.loading = false;
-      // this.$router.push("/");
     },
     //注册
     async handlerRegist() {
@@ -277,7 +255,6 @@ export default {
         let RegisterResult = await fetchUserRegister(this.emailForm)
           .then((res, req) => {
             //注册信息提示
-            console.log("register",res)
             if (!res.success) {
               this.$message.warning("该邮箱已注册,请登陆");
             } else {

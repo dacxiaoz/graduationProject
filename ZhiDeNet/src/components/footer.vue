@@ -233,7 +233,7 @@ export default {};
 .footer {
   height: 220px;
   min-width: @main-width;
-  background: rgba(0, 0, 0, 1);
+  background: rgb(77, 76, 76);
   color: #fff;
   display: flex;
   font-size: @font-size-small;

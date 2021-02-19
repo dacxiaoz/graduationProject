@@ -1,6 +1,6 @@
 <template>
   <div class="jobs">
-    <div class="banner">和优秀的人，做有挑战的事</div>
+    <div class="banner">在职得的地方找到职得的人</div>
 
     <!-- 搜索 -->
     <div ref="searchBar" :class="{ fixedTop: searchBarFixedTop }" class="search-wrapper">
@@ -174,12 +174,12 @@ export default {
 </script>
 <style lang="less" scoped>
 .banner {
-  height: 350px;
-  line-height: 350px;
+  height: 300px;
+  line-height: 250px;
   color: #fff;
   width: 100%;
   min-width: @main-width;
-  background-image: url("//sf3-ttcdn-tos.pstatp.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png");
+  background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbpic.588ku.com%2Fback_water_img%2F18%2F10%2F31%2F131a9ad9c42103c1c267150b3469eea03b.jpg&refer=http%3A%2F%2Fbpic.588ku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1616306010&t=185e2ece8ed2de478ed0a9f3bc2283f0");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -194,12 +194,11 @@ export default {
   z-index: 100;
   &.fixedTop {
     position: fixed;
-
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
     top: 0;
     padding: 20px 130px;
     z-index: 1000;
-    background-color: #fff;
+    background-color: rgb(192, 190, 190);
     transform: translateY(0);
   }
 }
@@ -263,7 +262,7 @@ export default {
       }
       &:hover {
         border-radius: 3px;
-        background: #fff;
+        background: rgb(204, 203, 203);
         box-shadow: 0 10px 30px 0 rgba(136, 150, 171, 0.15);
       }
     }

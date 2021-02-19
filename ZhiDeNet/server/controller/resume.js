@@ -53,12 +53,10 @@ const editResume = (params, callback) => {
         if (err) {
             console.error(err);
         }
-        console.log("params",params.id)
         let newdata = JSON.parse(data); //读取的data文件 转换为json对象
         let resumeDetailIndex = newdata.data.findIndex((item) => {
             return item.id === params.id
         })
-        console.log("resumeDetailIndex",resumeDetailIndex)
         if (resumeDetailIndex === '-1') {
             newdata.data.resumeDetail.push(params)
         } else {
